@@ -34,8 +34,8 @@ function loadPokemonItens(offset, limit) {
                 </div>
             </li>
     `).join("");
-    })
-}
+    
+
     
  /* const listItens = [];
   
