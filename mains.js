@@ -22,7 +22,7 @@ loadPokemonItens(offset,limit);
   
     
 function loadPokemonItens(offset, limit) {
-    pokeApi.getPokemon(offset, limit).then((pokemons = []) => {
+    pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
          const convertPokemonToLi = (pokemon) =>{
             return `
                 <li class="pokemon ${pokemon.type}">
